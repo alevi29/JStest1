@@ -1,0 +1,57 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: monospace;
+}
+
+body {
+    text-align: center;
+}
+
+#gameTitle {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#gameInstructions {
+    font-size: 18px;
+}
+
+.light-theme {
+    --fontColor: var(--black);
+    --backgroundColor: var(--white);
+    --buttonColor: var(--white);
+    --buttonBackground: var(--black);
+}
+
+.dark-theme {
+    --fontColor: var(--green);
+    --backgroundColor: var(--black);
+    --buttonColor: var(--black);
+    --buttonBackground: var(--white);
+
+}
+
+#Congrats {
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+
+#Sorry {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+#guessBox {
+    text-align: center;
+    font-size: 20px;
+    font-family: Luminari, fantasy;
+}
